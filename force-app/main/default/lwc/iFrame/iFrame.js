@@ -29,6 +29,7 @@ export default class X7SIframe extends LightningElement {
         iframe.src = this.url; // iFrame src; add this URL to CSP
         iframe.id = 'iframe-1';
         iframe.width = '100%';
+        iframe.height = '100%';
         iframe.setAttribute('frameborder', '0');
 
         containerElem.appendChild(iframe); // add iFrame to DOM
